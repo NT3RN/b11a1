@@ -8,27 +8,58 @@
 /* Shared style */
 body {
     background: #F5F5F5;
-    margin: 160px;
+    margin: 0px 185px 0px 185px;
 }
 
 .secondary-bg {
     background: #C6E4D6;
 }
 
+h2 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /* hover effects */
-.btn-banner:hover{
+.btn-banner:hover {
     background: #0d2514;
 }
 
 /* nav style */
+
 nav {
     display: flex;
-    padding: 24px 0px;
     justify-content: space-between;
     align-items: center;
+    margin: 24px auto;
 }
+
 nav h3 {
-    
+    color: #0E0E0E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+nav button {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    margin-right: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #006A50;
 }
 
 /* banner style */
@@ -39,7 +70,7 @@ nav h3 {
     justify-content: center;
     align-items: center;
     gap: 64px;
-    
+
     border-radius: 24px;
 }
 
@@ -61,7 +92,7 @@ nav h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 .btn-banner {
@@ -80,4 +111,163 @@ nav h3 {
     line-height: normal;
     border: none;
     cursor: pointer;
+}
+
+/* section 1 style*/
+.sce-1-para {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0px;
+}
+
+.sec-1-element {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.s1-e-title {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.s1-e-para {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+/* first element */
+.s1-bg1 {
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.s1-e-btn1 {
+    border-radius: 8px;
+    background: #5490F5;
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* 2nd element */
+.s1-bg2 {
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.s1-e-btn2 {
+    border-radius: 8px;
+    background: #09A15C;
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* 3rd element */
+.s1-bg3 {
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.s1-e-btn3 {
+    border-radius: 8px;
+    background: #FFC239;
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* qoutes style */
+.qoutes {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 2% 8%;
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 24px; */
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+.para-qoutes {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.qoutes h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 24px; */
+    margin-bottom: 0px;
+}
+
+.qoutes h4 {
+    color: rgba(14, 14, 14, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 24px; */
 }
