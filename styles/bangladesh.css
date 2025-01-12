@@ -65,7 +65,11 @@ nav button {
     line-height: normal;
     color: #006A50;
 }
-
+nav button:hover {
+    color: #000;
+    background: #09A15C;
+    cursor: pointer;
+}
 /* banner style */
 .banner {
     display: flex;
