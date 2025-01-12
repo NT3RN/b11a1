@@ -6,19 +6,29 @@
 }
 
 /* Shared style */
-body{
-    background: #F5F5F5;;
+body {
+    background: #F5F5F5;
+    margin: 160px;
 }
-.secondary-bg{
+
+.secondary-bg {
     background: #C6E4D6;
+}
+
+/* hover effects */
+.btn-banner:hover{
+    background: #0d2514;
 }
 
 /* nav style */
 nav {
     display: flex;
-    padding: 24px 160px;
+    padding: 24px 0px;
     justify-content: space-between;
     align-items: center;
+}
+nav h3 {
+    
 }
 
 /* banner style */
@@ -29,6 +39,45 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 64px;
-    margin: 160px;
+    
     border-radius: 24px;
+}
+
+.banner-sub-title {
+    color: rgba(14, 14, 14, 0.50);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    width: 620px;
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.btn-banner {
+    border-radius: 8px;
+    background: #006A50;
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
 }
