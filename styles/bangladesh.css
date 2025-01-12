@@ -8,6 +8,11 @@
 /* Shared style */
 body {
     background: #F5F5F5;
+    /* margin: 0px 185px 0px 185px; */
+}
+
+header,
+main {
     margin: 0px 185px 0px 185px;
 }
 
@@ -117,6 +122,10 @@ nav button {
 }
 
 /* section 1 style*/
+.section-1 {
+    margin-bottom: 80px;
+}
+
 .sec-1-para {
     color: rgba(14, 14, 14, 0.70);
     font-size: 16px;
@@ -464,8 +473,92 @@ nav button {
     margin-bottom: 80px;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background: #489e90;
     color: #000;
     cursor: pointer;
+}
+
+/* newsletter style */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    /* margin-bottom: 80px; */
+}
+
+.newsletter p {
+    width: 630px;
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.newsletter-form {
+    display: flex;
+
+}
+
+.email-input {
+    width: 600px;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.subscribe-btn {
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.subscribe-btn:hover {
+    background: #489e90;
+    color: #000;
+    cursor: pointer;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    padding: 50px 160px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    align-self: stretch;
+    background: #FFF;
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+footer hr {
+    width: 1122px;
+    height: 1px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
 }
