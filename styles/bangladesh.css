@@ -444,8 +444,9 @@ nav button:hover {
     cursor: pointer;
 }
 
-.donate-btn-bg {
-    background: #C6E4D6
+.donate-btn:nth-child(2):active {
+    background: #A3D4B5;
+    color: #000;
 }
 
 .custom-amount {
